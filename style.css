@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content-area{
+    display: flex;
+}
+.navigation-bar{
+    height: 7vh;
+    width: 100%;
+    padding: 1vh;
+    padding-left: 5vh;
+    padding-right: 5vh ;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 2px solid rgb(183, 175, 175);
+}
+.post-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:93vh;
+    width:65vw;
+    background-color: rgb(239, 250, 246);
+}
+.post-card{
+    height: 40vh;
+    width: 50%;
+    /* background-color: rgb(42, 52, 52); */
+}
+.text-area{
+    display: flex;
+    margin-top: 2vh;
+    height: 35vh;
+    width: 100%;
+    border: 1px solid rgb(211, 206, 206);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.text-area-icon{
+    display: flex;
+    /* padding: 1vh; */
+    width:10%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+.input-area{
+    display: flex;
+    padding-left: 2vh;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    /* background-color: aqua; */
+}
+.input{
+    height:80%;
+    border: none;
+    outline: none;
+    resize: none;
+}
+#submit-btn{
+    height:5vh;
+    width: 7vw;
+    outline: none;
+    margin-left: 70%;
+    background-color: rgb(69, 69, 255);
+    border-radius: 15px;
+    color:white ;
+    border: 0;
+}
+.feed-area{
+    display: flex;
+    flex-direction: column;
+    height: 93vh;
+    width: 35vw;
+    /* background-color: bisque; */
+    padding: 2vh;
+}
+.feed-area div h3{
+    height: 5%;
+}
+.cards-area{
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.cards-area .card{
+    height: 30%;
+    width: 100%;
+    border: 1.5px solid rgb(211, 206, 206);
+    border-radius: 10px;
+    /* background-color: blue; */
+    padding: 3%;
+    display: flex;
+
+}
+.card .card-icon{
+    width: 10%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+.card .card-icon img{
+    width: 100%;
+}
+.card-content{
+    padding: 2%;
+    width: 90%;
+    /* background-color: aqua; */
+}
+.card-content-header{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+
+.feed-text{
+    height: 70%;
+}
+.card-content-footer{
+    width: 25%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+#submit-btn:hover{
+    cursor: pointer;
+    background-color: rgb(38, 38, 207);
+}
+img:hover{
+    cursor: pointer;
+}
