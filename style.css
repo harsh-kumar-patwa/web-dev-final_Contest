@@ -141,3 +141,55 @@
 img:hover{
     cursor: pointer;
 }
+.delete_btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vh;
+    height: 25vh;
+    width: 25vw;
+    /* background-color: rgb(69, 69, 255); */
+    border: 2px solid rgb(231, 217, 217);
+    border-radius: 10px ;
+}
+.buttons-for-delete{
+    display: flex;
+    justify-content: end;
+    /* margin: 5px; */
+    /* padding: 5px; */
+}
+.buttons-for-delete button{
+    margin-left: 2vw;
+    background-color: white;
+    height: 5vh;
+    width: 7vw;
+    border: 2px solid rgb(217, 224, 231);
+    border-radius: 10px;
+}
+
+.delete-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#delete-red{
+    background-color: red;
+    border: red;
+    color: white;
+}
+.delete-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    display: none;
+}
+.close-delete:hover , .buttons-for-delete button:hover{
+    cursor: pointer;
+}
